@@ -13,5 +13,6 @@ struct FakeUIApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }
